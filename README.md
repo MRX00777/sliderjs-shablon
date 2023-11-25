@@ -1,0 +1,1 @@
+# sliderjs-shablon
