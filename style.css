@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    margin: 0 auto;
+}
+
+.slider__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    background: green;
+    background: url(https://sportishka.com/uploads/posts/2022-04/1650706226_1-sportishka-com-p-islandiya-vikipediya-krasivo-foto-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.slider__slide:nth-child(2){
+    background: url(https://www.eskimos.is/media/1221/kirkjufellsfoss-sumarid.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider__slide:nth-child(3){
+    background: url(https://interesnoznat.com/wp-content/uploads/ec931528980001.55dc637133871.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider__slide:nth-child(4){
+    background: url(https://4tololo.ru/sites/default/files/images/20120305162233.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider__slide:nth-child(5){
+    background: url(https://pentaxforums.com/gallery/images/24234/1_first_light_first_flight.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider__controls{
+    display: flex;
+    justify-content: center;
+}
+
+.slider_controls button {
+    padding: 10px;
+}
